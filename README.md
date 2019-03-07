@@ -1,5 +1,9 @@
 # implement a list by storing data in an encapsulated array
 
+Team members:
+Afm Khan
+Jason Feng
+
 Design `List_inArraySlots` to implement a list of integers.
 It is required to be able to store any values that 
 an `int` can hold, in consecutive slots of an array of `int`s.
