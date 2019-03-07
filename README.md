@@ -1,7 +1,9 @@
 # implement a list by storing data in an encapsulated array
 
 Team members:
+
 Afm Khan
+
 Jason Feng
 
 Design `List_inArraySlots` to implement a list of integers.
