@@ -6,9 +6,9 @@
 public class List_inArraySlots {
 
     // declare fields here
-    int filledCount = 0;
-    int currentMax = 10;
-    int[] listed = new int[currentMax];
+    private int filledCount = 0;
+    private int currentMax = 10;
+    private int[] listed = new int[currentMax];
     
 
     /**
@@ -46,7 +46,7 @@ public class List_inArraySlots {
      */
      public boolean add( int value) {
         if (filledCount == currentMax) {
-            System.out.println("somethings up...");
+
             expand();
             
         }
@@ -67,7 +67,7 @@ public class List_inArraySlots {
         currentMax *= 2;
         for (int i = 0; i < listed.length; i++) {
             dataHolder[i] = listed[i];
-            System.out.println(i);
+
         }
         listed = dataHolder;
      }
